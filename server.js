@@ -4,7 +4,7 @@ var express = require('express');
 
 var app = express();
 
-var server = app.listen(8443);
+var server = app.listen(443);
 
 var socket = require('socket.io');
 
