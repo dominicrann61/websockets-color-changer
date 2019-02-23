@@ -8,7 +8,7 @@ function setup() {
 	background(0);
 	fill(255);
 	noStroke();
-	socket = io.connect('http://localhost:3000');
+	socket = io.connect('https://dominicrann61.github.io/websockets-color-changer2/');
 	btn = createButton('red');
 
 	btn.mousePressed(()=>{
